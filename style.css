@@ -1,0 +1,153 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #8680a0, #033fb6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 12px;
+}
+
+/* Form container */
+
+.signup-container {
+  background: linear-gradient(135deg, #8680a0, #033fb6);
+  padding: 25px 30px;
+  margin: 80px auto 80px 60px;
+  border-radius: 15px;
+  box-shadow: 0 4px 25px rgba(228, 222, 222, 0.2);
+  width: 550px;
+  padding: 2rem;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.form-group.half {
+  flex: 1;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.email-phone-row {
+  display: flex;
+  gap: 16px;
+}
+
+.email-phone-row > div {
+  flex: 1;
+}
+
+/* Radio buttons */
+
+.radio-group {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.radio-group label {
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+input[type="radio"] {
+  accent-color: #4e4e6b;
+  transform: scale(1.1);
+}
+
+/* Buttons */
+
+.button-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  background: linear-gradient(to right, #3b82f6, #1d4ed8);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease, opacity 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.03);
+  opacity: 0.9;
+}
+
+/* Reset button style */
+
+.reset-btn {
+  background: linear-gradient(
+    135deg,
+    rgba(30, 58, 138, 0.85),
+    rgba(111, 146, 176, 0.85)
+  );
+}
+
+.reset-btn:hover {
+  background: linear-gradient(
+    135deg,
+    rgba(30, 58, 138, 0.85),
+    rgba(86, 134, 176, 0.85)
+  );
+}
+
+/* Footer */
+
+.footer {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
