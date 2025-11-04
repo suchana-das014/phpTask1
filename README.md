@@ -1,8 +1,9 @@
 ## PHP + Tailwind Modal Form
 
 A simple web form built with HTML, CSS, JavaScript, PHP, and Tailwind CSS. Users can submit data, view it in a styled table, and manage entries with edit and delete options.
+---
 
-✨ Features
+## ✨ Features
 
 Submit data through a user-friendly form
 
@@ -15,27 +16,30 @@ Fully responsive design using Tailwind CSS
 Interactive buttons and validations via JavaScript
 
 Data storage handled with PHP + MySQL
+---
 
-⚙️ Requirements
+## ⚙️ Requirements
 
 MySQL database
 
 Web server (Apache, XAMPP)
 
 Tailwind CSS (via CDN)
+---
 
-🚀 Setup Instructions
+## 🚀 Setup Instructions
 
 Clone the repository:
 
 git clone [<your-repo-url>](https://github.com/suchana-das014/phpTask1)
 
 
-Create the database:
+## Create the database:
 
 Use phpMyAdmin or MySQL CLI to create a database 
 
 Create a table to store form submissions
+---
 
 Configure PHP connection:
 Update your PHP file with database credentials:
@@ -45,14 +49,14 @@ $user = 'root';
 $pass = '';
 $db   = 'form_db';
 
-
-Deploy files:
+---
+## Deploy files:
 Place all files (index.html, style.css, script.js, database.php) in your server’s public directory
 
-Run the app:
+## Run the app:
 Open index.html in your browser to start submitting and managing data
-
-📂 File Structure
+---
+ ## 📂 File Structure
 project/
 ├── index.html       # Form and table UI
 ├── style.css        # Tailwind CSS + custom styles
