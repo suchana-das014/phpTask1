@@ -4,31 +4,33 @@ A simple web form built with HTML, CSS, JavaScript, PHP, and Tailwind CSS. Users
 ---
 
 ## ✨ Features
+---
+-Submit data through a user-friendly form
 
-Submit data through a user-friendly form
+-View stored entries in a responsive table
 
-View stored entries in a responsive table
+-Edit or delete entries directly from the interface
 
-Edit or delete entries directly from the interface
+-Fully responsive design using Tailwind CSS
 
-Fully responsive design using Tailwind CSS
+-Interactive buttons and validations via JavaScript
 
-Interactive buttons and validations via JavaScript
+-Data storage handled with PHP + MySql
 
-Data storage handled with PHP + MySQL
+
 ---
 
 ## ⚙️ Requirements
+---
+-MySQL database
 
-MySQL database
+-Web server (Apache, XAMPP)
 
-Web server (Apache, XAMPP)
-
-Tailwind CSS (via CDN)
+-Tailwind CSS(via cdn)
 ---
 
 ## 🚀 Setup Instructions
-
+---
 Clone the repository:
 
 git clone [<your-repo-url>](https://github.com/suchana-das014/phpTask1)
@@ -57,8 +59,13 @@ Place all files (index.html, style.css, script.js, database.php) in your server�
 Open index.html in your browser to start submitting and managing data
 ---
  ## 📂 File Structure
+ 
 project/
+
 ├── index.html       # Form and table UI
+
 ├── style.css        # Tailwind CSS + custom styles
+
 ├── script.js        # JS for form interactivity
+
 └── database.php     # PHP backend for storing and managing data
