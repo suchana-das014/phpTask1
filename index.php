@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- ===== Your Original Form ===== -->
+  <!-- ===== Original Form ===== -->
   <div class="signup-container">
     <h2>Create Account</h2>
     <form action="insert.php" method="POST">
@@ -136,21 +136,43 @@
     <form id="editForm">
       <input type="hidden" id="editId" name="id">
 
-      <label class="block text-sm font-medium mb-1">First Name</label>
-      <input type="text" id="editFname" name="fname" class="w-full mb-3 p-2 border rounded">
+      <!-- First Name -->
+      <div class="mb-3">
+        <label for="editFname" class="block text-sm font-semibold text-gray-700 mb-1">First Name</label>
+        <input type="text" id="editFname" name="fname" 
+               class="w-full p-2 border rounded bg-gray-100 focus:bg-white focus:border-blue-500 focus:ring-2 focus:ring-blue-400" 
+               placeholder="Enter first name">
+      </div>
 
-      <label class="block text-sm font-medium mb-1">Last Name</label>
-      <input type="text" id="editLname" name="lname" class="w-full mb-3 p-2 border rounded">
+      <!-- Last Name -->
+      <div class="mb-3">
+        <label for="editLname" class="block text-sm font-semibold text-gray-700 mb-1">Last Name</label>
+        <input type="text" id="editLname" name="lname" 
+               class="w-full p-2 border rounded bg-gray-100 focus:bg-white focus:border-blue-500 focus:ring-2 focus:ring-blue-400" 
+               placeholder="Enter last name">
+      </div>
 
-      <label class="block text-sm font-medium mb-1">Email</label>
-      <input type="email" id="editEmail" name="email" class="w-full mb-3 p-2 border rounded">
+      <!-- Email -->
+      <div class="mb-3">
+        <label for="editEmail" class="block text-sm font-semibold text-gray-700 mb-1">Email</label>
+        <input type="email" id="editEmail" name="email" 
+               class="w-full p-2 border rounded bg-gray-100 focus:bg-white focus:border-blue-500 focus:ring-2 focus:ring-blue-400" 
+               placeholder="Enter email">
+      </div>
 
-      <label class="block text-sm font-medium mb-1">Phone</label>
-      <input type="text" id="editPhone" name="phone" class="w-full mb-4 p-2 border rounded">
+      <!-- Phone -->
+      <div class="mb-4">
+        <label for="editPhone" class="block text-sm font-semibold text-gray-700 mb-1">Phone</label>
+        <input type="text" id="editPhone" name="phone" 
+               class="w-full p-2 border rounded bg-gray-100 focus:bg-white focus:border-blue-500 focus:ring-2 focus:ring-blue-400" 
+               placeholder="Enter phone number">
+      </div>
 
       <div class="flex justify-end space-x-2">
-        <button type="button" onclick="closeEditModal()" class="bg-gray-400 hover:bg-gray-500 text-white px-4 py-2 rounded">Cancel</button>
-        <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded">Save</button>
+        <button type="button" onclick="closeEditModal()" 
+                class="bg-gray-400 hover:bg-gray-500 text-white px-4 py-2 rounded">Cancel</button>
+        <button type="submit" 
+                class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded">Save</button>
       </div>
     </form>
   </div>
