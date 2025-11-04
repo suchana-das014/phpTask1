@@ -1,26 +1,60 @@
-📝 PHP Form with Database 
+## PHP + Tailwind Modal Form
 
-A responsive and interactive **Sign-up Form System** built with  
-**HTML, Tailwind CSS, JavaScript, PHP, and MySQL**.  
+A simple web form built with HTML, CSS, JavaScript, PHP, and Tailwind CSS. Users can submit data, view it in a styled table, and manage entries with edit and delete options.
 
-It allows users to **submit**, **view**, **edit**, and **delete** data — all in a clean, modern UI.
+✨ Features
 
----
+Submit data through a user-friendly form
 
-## 🧰 Tech Stack
-| Layer | Technology |
-|-------|-------------|
-| Frontend | HTML5, CSS3, Tailwind CSS |
-| Interactivity | JavaScript |
-| Backend | PHP (Procedural) |
-| Database | MySQL (via phpMyAdmin) |
+View stored entries in a responsive table
 
----
+Edit or delete entries directly from the interface
 
-## 💡 Features
-✅ Responsive Sign-up Form  
-✅ Data Stored in MySQL Database  
-✅ Edit and Delete Buttons (via JS + PHP)  
-✅ Modal-based Edit Form  
-✅ Passwords securely hashed before saving  
-✅ Clean and minimal Tailwind-styled design  
+Fully responsive design using Tailwind CSS
+
+Interactive buttons and validations via JavaScript
+
+Data storage handled with PHP + MySQL
+
+⚙️ Requirements
+
+MySQL database
+
+Web server (Apache, XAMPP)
+
+Tailwind CSS (via CDN)
+
+🚀 Setup Instructions
+
+Clone the repository:
+
+git clone [<your-repo-url>](https://github.com/suchana-das014/phpTask1)
+
+
+Create the database:
+
+Use phpMyAdmin or MySQL CLI to create a database 
+
+Create a table to store form submissions
+
+Configure PHP connection:
+Update your PHP file with database credentials:
+
+$host = 'localhost';
+$user = 'root';
+$pass = '';
+$db   = 'form_db';
+
+
+Deploy files:
+Place all files (index.html, style.css, script.js, database.php) in your server’s public directory
+
+Run the app:
+Open index.html in your browser to start submitting and managing data
+
+📂 File Structure
+project/
+├── index.html       # Form and table UI
+├── style.css        # Tailwind CSS + custom styles
+├── script.js        # JS for form interactivity
+└── database.php     # PHP backend for storing and managing data
